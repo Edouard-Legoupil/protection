@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Protection Incident</title>
+<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon' />
+<link rel='stylesheet' href='css/reset.css' type='text/css' media='all' />
+<link rel='stylesheet' href='css/style.css' type='text/css' media='screen, projection' />
+</head>
+<body>
+<div id='masthead'>
+  <div class='limiter'>
+    <a href='http://www.new.org' class='internews' title='new.org'>an new project</a>
+    <div id='feedback'>
+        <a href='#feedback' class='feedback'>Feedback</a>
+        <div class='contents'>
+          <p>If you have data that can be added to this map, have discovered any errors, or simply have a question or comment, please <a href='mailto:test@test.org' class='action'>contact us</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id='header'>
+  <div class='limiter'>
+    <h1><a href='/' class='title' title='Violence Against Journalists in Afghanistan from 2001-2011'>Violence Against Journalists in Afghanistan <span>2001-2011</span></a></h1>
+    <a href='#notes' class='notes' title='Download open data'>Notes on our data</a>
+  </div>
+</div>
+<div id='map'>
+  <div id='embed'>
+    <a href='#' class='embed'></a>
+    <div class='tip'>
+      <div class='inner'>
+        <input type='textfield' length='20' class='embed' value="" readonly>
+        <p>Share this map by pasting the embed code above on a website.</p>
+      </div>
+      <span class='point'></span>
+    </div>
+  </div>
+  <a href='#' id='bwtoggle' class='hq'>HQ</a>
+</div>
+<div id='controls'>
+  <div class='limiter clearfix'>
+    <ul class='annuals'>
+      <li class='all-data active'><a href='#all'>All</a></li>
+    </ul>
+    <ul id='overlay-select'>
+      <li class='item'><a href='#' id='afg-journalists'>Journalists</a></li>
+      <li class='item'><a href='#' id='afg-media-outlets'>Media Outlets</a></li>
+      <li class='item'><a href='#' id='afg-security-2011'>Security Incidents</a></li>
+      <li class='item'><a href='#' id='afg-safety-index'>Safety</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id='table-wrapper'>
+  <div id='interactive-overviews'>
+    <div class="limiter">
+      <div id='ovtitle'>
+        <h2 class='ovheader hider'>2001 Overview</h2>
+      </div>
+      <table class='hider clearfix tablesorter'>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Gender</th>
+            <th>Occupation</th>
+            <th>Organization</th>
+            <th>Incident Type</th>
+            <th>Province</th>
+            <th>Reason</th>
+            <th class='last'>Suspected Attacker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Content populates here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id='bigpicture' class='clearfix'>
+  <div class='limiter'>
+    <div class='col copy'>
+      <h2>Project Overview</h2>
+      <p>Strange things happen by <a href='http://www.data.org'>Watch</a> team.</p>
+    </div>
+    <div class='col graphs'>
+      <div class='chart first'>
+        <h6>Yearly Incidents of Violence, 2001-2011</h6>
+        <div id='incident-per-year'></div>
+      </div>
+      <div class='chart'>
+        <h6>Type of Incident v. Gender</h6>
+        <div id='incident-v-gender'></div>
+        <ul class='icons-25'>
+            <li class='threatened'>Threatened</li>
+            <li class='beaten'>Beaten</li>
+            <li class='arrested'>Arrested</li>
+            <li class='killed'>Killed</li>
+            <li class='kidnapped'>Kidnapped</li>
+            <li class='injured'>Injured</li>
+        </ul>
+      </div>
+    </div>
+    <div class='col total'>
+      <div>
+        <h6>Total Incidents</h6>
+        <p id='bnTotal' class='bignum'></p>
+        <p class='infoheader'>Highest Year</p>
+        <p id='bnYear' class='smallnum'></p>
+        <p class='infoheader'>Highest Month</p>
+        <p id='bnMonth' class='smallnum'></p>
+        <p class='infoheader'>Highest Province</p>
+        <p id='bnProv' class='smallnum'></p>
+      </div>
+      <div>
+        <h6>Top 5 Organizations Experiencing Violence</h6>
+        <ul>
+            <li class='smallnum'>Aryana TV (24)</li>
+            <li class='smallnum'>Tolo TV (19)</li>
+            <li class='smallnum'>Al Jazeera (12)</li>
+            <li class='smallnum'>Freelance (10)</li>
+            <li class='smallnum'>Azadi Radio (9)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id='downloads' class='clearfix'>
+  <div class='limiter'>
+    <div class='col copy'>
+      <h2>Open Data</h2>
+      <p>The data on this website is freely available in the two formats at right. We encourage you to download, disseminate, and reuse it.</p>
+    </div>
+    <div class='col dl'>
+      <div class='dl-data'>.CSV</div>
+      <div><a href='data/internews-vjdata.csv' title='Download the data' class='button'>Download the data</a></div>
+      <p class='details'>Download a .csv document containing all reports visible on this site.</p>
+    </div>
+    <div class='col dl'>
+      <div class='dl-map'>.GeoJSON</div>
+      <div><a href='data/internews-vjdata.geojson' title='Download the map' class='button'>Download the map</a></div>
+      <p class='details'>Download the maps above in the .GeoJSON format to build maps using tools like <a href='http://tilemill.com' title='TileMill'> TileMill</a>.</p>
+    </div>
+  </div>
+</div>
+<div id='footer'>
+  <div class='limiter clearfix'>
+    <div class='cc'>
+      <span>Powered by open source<a href='http://tilemill.com' title='TileMill'> TileMill</a></span>
+    </div>
+    <ul>
+        <li class='internews'><a href='http://www.internews.org' title='An Internews Project'>an <span>Internews</span> project</a><br /> in partnership with:</li>
+        <li><a href='http://nai.org.af' class='icon nai' title='Nai Supporting Open Media in Afghanistan'>Nai Supporting Open Media in Afghanistan</a></li>
+        <li><a href='http://developmentseed.org' class='icon ds' title='DevelopmentSeed'>DevelopmentSeed</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id='overlay'></div>
+<div id='modal'>
+  <div class='popup'>
+    <div class='header clearfix'>
+      <h2>Notes on our Data</h2>
+      <a href='#close' class='icon close'>Close</a>
+    </div>
+    <div class='content'>
+      <p>The project visualizes incidents of violence on an interactive map that allows visitors to browse data by geography and year. This map features incident data as well as several overlays that provide users with a rich sense cultural and environmental context. Below you will find more information on the various data sources used to create this visualization.</p>
+      <h2>Data</h2>
+      <p>Individual reports of violence against journalists - 266 in total - were collected by <a href='http://www.data.org'>Nai Supporting Afghanistan Open Media</a>, an organization dedicated to supporting independent journalists in Afghanistan through training and advocacy. Included in the data are details about the journalist including their name, gender, occupation and organization. The data also includes information about the specific incident such as the date, location (province), incident type, suspected attacker and motive. We processed this data in collaboration with Nai and Internews to produce a total of incidents by province and year.</p>
+      <h2>The Maps</h2>
+      We created the maps using <a href='http://mapbox.com/#/tilemill'>TileMill</a>, an open source map design studio. The resulting maps are dynamic, highly interactive, and easy to navigate.
+      <h3>Base Map</h3>
+      <p>The base layer map was developed from the following publicly available data sets:</p>
+      <ul>
+        <li>Elevation information from the [Shuttle Radar Topography Mission]( http://en.wikipedia.org/wiki/SRTM);</li>
+        <li>Road information from <a href='http://www.openstreetmap.org'>OpenStreetMap</a> and <a href='http://aims.org.af'>Afghanistan Information Management Services</a>; and</li>
+        <li>Provincial and district boundaries from [Afghanistan Information Management Services](http://aims.org.af/).</li>
+       </ul>
+       <h3>Safety Index</h3>
+       <p>This layer depicts the relative safety level of each province as described by an index created by <a href='http://www.nai.org.af/'>Nai Supporting Afghanistan Open Media</a>.</p>
+       <h3>Security Incidents</h3>
+       <p>This layer depicts the total number of security incidents per district in the year 2011. Incidents include security-related events including arrests, IED explosions, rocket and mortar fire, demonstrations, drug related incidents, and human remains found. Data provided by the <a href='http://www.immap.org'>Information Management and Mine Action Programs (iMMAP)</a>.</p>
+       <h3>Media Outlets</h3>
+       <p>This layer depicts the total number of media outlets per province and includes TV broadcasters, radio broadcasters, newspaper publishers, magazines, new agencies, and other publications and periodicals. Data provided by <a href='http://www.nai.org.af/'>Nai Supporting Afghanistan Open Media</a>.</p>
+      <h3>Journalists</h3>
+      <p>This layer depicts the total number of journalists per province in Afghanistan. The data for this layer was provided by <a href='http://www.nai.org.af/'>Nai Supporting Afghanistan Open Media</a>.</p>
+      <h3>Interactive Contextual Data</h3>
+      <p>The data that appears when users mouse over individual provinces is drawn from several sources:</p>
+      <ul>
+        <li><strong>Adult Literacy Rates:</strong> These figures depict adult literacy rates (age 16 and up) per province and are based on data compiled in 2005 and published in the 2007 Afghanistan Human Development Report (Center for Policy and Human Development, Kabul University, Jamal Mena, Kabul, Afghanistan - Table 2, p 164.).</li>
+       <li><strong>Population:</strong> These figures are based on data compiled by the [Afghanistan Central Statistics Organization](http://cso.gov.af/en) and published in the <a href='http://ec.europa.eu/europeaid/where/asia/documents/afgh_nrva_2007-08_full_report_en.pdf'>2007-2008 National Risk and Vulnerability Assessment</a>. This is widely regarded as the most accurate estimation of the population currently available.</li>
+       <li><strong>NATO Lead Regional Command:</strong> The NATO Lead Nation refers to the country which leads the International Security Assistance Force troops for the region of Afghanistan to which that province belongs.  This data comes from the <a href='http://www.isaf.nato.int/troop-numbers-and-contributions/index.php'>NATO International Security Assistance Force website.</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type='text/javascript' src='scripts/jquery.min.js'></script>
+<script type='text/javascript' src='scripts/jquery.tablesorter.min.js'></script>
+<script type='text/javascript' src='scripts/underscore.js'></script>
+<script type='text/javascript' src='scripts/modestmaps.min.js'></script>
+<script type='text/javascript' src='scripts/wax.mm.min.js'></script>
+<script type='text/javascript' src='scripts/script.js'></script>
+
+<script>
+
+</script>
+</body>
+</html>
