@@ -1,7 +1,9 @@
 var annuals = [
   { 'year': '2001' },
   { 'year': '2002' },
-  { 'year': '2003', 'hasData': false },
+  { 'year': '2003'
+  //, 'hasData': false 
+  },
   { 'year': '2004' },
   { 'year': '2005' },
   { 'year': '2006' },
