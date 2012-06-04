@@ -23,10 +23,10 @@ var m,
     activePoints = 'jv-afg-total',
     mm = com.modestmaps,
     layers = [
-        'afghanistan-hillshades',
-        'afghanistan-english-borders',
+        'natural-earth-2',
+        'world-borders-light',
         activePoints].join(','),
-    url = 'http://a.tiles.mapbox.com/internews/1.0.0/' + layers + '/layer.json';
+    url = 'http://a.tiles.mapbox.com/mapbox/1.0.0/' + layers + '/layer.json';
 
 
 function getFormatter() {
@@ -58,19 +58,19 @@ function getFormatter() {
 
 function getTiles() {
   return [
-     "http://a.tiles.mapbox.com/internews/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
-     "http://b.tiles.mapbox.com/internews/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
-     "http://c.tiles.mapbox.com/internews/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
-     "http://d.tiles.mapbox.com/internews/1.0.0/"+layers+"/{z}/{x}/{y}.jpg"
+     "http://a.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
+     "http://b.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
+     "http://c.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
+     "http://d.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.jpg"
   ];
 }
 
 function getGrids() {
   return [
-     "http://a.tiles.mapbox.com/internews/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
-     "http://b.tiles.mapbox.com/internews/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
-     "http://c.tiles.mapbox.com/internews/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
-     "http://d.tiles.mapbox.com/internews/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json"
+     "http://a.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
+     "http://b.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
+     "http://c.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
+     "http://d.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json"
   ];
 }
 
@@ -99,7 +99,7 @@ function refreshMap() {
   $('#map-bg').remove();
   $('#map').clone().attr('id','map-bg').prependTo('#map');
 
-  url = 'http://a.tiles.mapbox.com/internews/1.0.0/' + layers + '/layer.json';
+  url = 'http://a.tiles.mapbox.com/mapbox/1.0.0/' + layers + '/layer.json';
   wax.tilejson(url, function(tilejson) {
     tilejson.formatter = getFormatter();
     tilejson.minzoom = 6;
@@ -113,7 +113,7 @@ function refreshMap() {
     overlays = wax.mm.interaction(m, tilejson, {
       clickAction: ['location'],
       clickHandler: function(data) {
-		    hideProvince(data);
+            hideProvince(data);
       }
     });
   });
@@ -155,9 +155,9 @@ var makeMap = {
                 // let the tablesorter know we made a update
                 $('#table-wrapper table').trigger('update');
                 layers = [
-                   'afghanistan-hillshades',
+                   'natural-earth-2',
                    selectedOverlay,
-                   'afghanistan-english-borders',
+                   'world-borders-light',
                    'jv-afg-' + item.year
                 ];
                 var cleanLayers = _.compact(layers);
@@ -175,7 +175,7 @@ $(function() {
     wax.tilejson(url, function(tilejson) {
       tilejson.formatter = getFormatter();
       tilejson.minzoom = 6;
-      tilejson.maxzoom = 11;
+      tilejson.maxzoom = 12;
       tilejson.tiles = getTiles();
       tilejson.grids = getGrids();
 
@@ -216,7 +216,7 @@ $(function() {
               hideProvince(data);
           }
       });
-      m.setCenterZoom(new mm.Location(34, 67.4), 6);
+      m.setCenterZoom(new mm.Location(-1.7, 29,2), 6);
       m.addCallback("panned", function(modestmap, e) {
         $('#map-bg').remove();
       });
@@ -227,27 +227,27 @@ $(function() {
     $('#table-wrapper table').tablesorter();
 
     $.ajax({
-      url: 'data/internews-vjdata.geojson',
+      url: 'data/protection-drc-vjdata.geojson',
       dataType: 'json',
       success: buildTable
     });
 
     function buildTable(data) {
         //
-    	//Build yearly data table
-    	$.each(data.features, function(key, val) {
-	        var content = '<tr class="vjdata ' + val.properties.year + ' ' + 
-	        	val.properties.month + ' ' + 
-	    		val.properties.incident_province +
-	            ' hider"><td>' + val.properties.date + '</td><td>' +
-	            val.properties.gender + '</td><td>' + 
-	            val.properties.occupation + '</td><td>' + 
-	            val.properties.organization + '</td><td>' + 
-	            val.properties.incident_type + '</td><td>' + 
-	            val.properties.incident_province + '</td><td>' + 
-	            val.properties.incident_reason + '</td><td class="last">' +
-	            val.properties.suspected_attacker + '</td></tr>';
-	            $('#table-wrapper table tbody').append(content);
+        //Build yearly data table
+        $.each(data.features, function(key, val) {
+            var content = '<tr class="vjdata ' + val.properties.year + ' ' + 
+                val.properties.month + ' ' + 
+                val.properties.incident_province +
+                ' hider"><td>' + val.properties.date + '</td><td>' +
+                val.properties.gender + '</td><td>' + 
+                val.properties.occupation + '</td><td>' + 
+                val.properties.organization + '</td><td>' + 
+                val.properties.incident_type + '</td><td>' + 
+                val.properties.incident_province + '</td><td>' + 
+                val.properties.incident_reason + '</td><td class="last">' +
+                val.properties.suspected_attacker + '</td></tr>';
+                $('#table-wrapper table tbody').append(content);
         });
 
         var gender = _(data.features).chain()
@@ -271,10 +271,10 @@ $(function() {
             return counts;
         }, {}).value();
 
-		//Big Numbers
-		$('#bnTotal').html($('tr').size()-1);
+        //Big Numbers
+        $('#bnTotal').html($('tr').size()-1);
 
-		var yearValues = _(_.range(2001, 2011)).map(function(m, i) {
+        var yearValues = _(_.range(2001, 2011)).map(function(m, i) {
             return {
                 name: m,
                 value: $('tr.' + m).size()
@@ -310,11 +310,11 @@ $(function() {
             return m.value;
         });
 
-		$('#bnMonth').html(highMonth.name + " (" + highMonth.value + ")");
+        $('#bnMonth').html(highMonth.name + " (" + highMonth.value + ")");
 
-		$('#bnYear').html(highYear.name + " (" + highYear.value + ")");
+        $('#bnYear').html(highYear.name + " (" + highYear.value + ")");
 
-		$('#bnProv').html("Kabul (" + $('tr.Kabul').size() + ")");
+        $('#bnProv').html("Kabul (" + $('tr.Kabul').size() + ")");
 
         // Graphs
         var incidentPerYear =  "<img src='http://chart.apis.google.com/chart?" +
@@ -369,8 +369,8 @@ $(function() {
          if($(this).parent().hasClass('active')) {
              $(this).parent('li').removeClass('active');
              layers = [
-                   'afghanistan-hillshades',
-                   'afghanistan-english-borders',
+                   'natural-earth-2',
+                   'world-borders-light',
                    activePoints
                  ].join(',');
             refreshMap();
@@ -379,9 +379,9 @@ $(function() {
              $(this).parent().addClass('active');
              var selectedOverlay = $(this).attr('id');
              layers = [
-                     'afghanistan-hillshades',
+                     'natural-earth-2',
                      selectedOverlay,
-                     'afghanistan-english-borders',
+                     'world-borders-light',
                      activePoints
                    ].join(',');
              refreshMap();
@@ -393,9 +393,9 @@ $(function() {
         year = 0;
         selectedOverlay = $('ul#overlay-select li.active a').attr('id');
         layers = [
-            'afghanistan-hillshades',
+            'natural-earth-2',
             selectedOverlay,
-            'afghanistan-english-borders',
+            'world-borders-light',
             'jv-afg-total'
         ];
         var cleanLayers = _.compact(layers);
@@ -458,7 +458,7 @@ $(function() {
     url += '&amp;options%5B%5D=attribution';
     url += '&amp;el=' + embedId;
 
-    $('.tip input').attr('value', "<div id='" + embedId + "-script'><script src='http://tiles.mapbox.com/internews/api/v1/embed.js?api=mm" + url + "'></script></div>");
+    $('.tip input').attr('value', "<div id='" + embedId + "-script'><script src='http://tiles.mapbox.com/mapbox/api/v1/embed.js?api=mm" + url + "'></script></div>");
     $(this).parent().addClass('active');
     $('.tip input').select();
   },function() {

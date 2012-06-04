@@ -1,0 +1,267 @@
+unique_id,date,day,month,year,home_province,home_town,gender,age,occupation,organization,incident_type,incident_province,incident_district,incident_town,incident_reason,suspected_attacker,investigation_result,notes_other_details,latitude,longitude
+1,11/19/2001,19,11,2001,Foreigner,Unclear,Male,,Journalist,Reuters,Killed,Nangarhar,Unclear,Unclear,Unclear,Unknown,,,34.27,70.48
+2,11/19/2001,19,11,2001,Afghan,Unclear,Male,,Journalist,Reuters,Killed,Nangarhar,Unclear,Unclear,Unclear,Unknown,,,34.27,70.48
+3,11/19/2001,19,11,2001,Italy,Unclear,Female,,Journalist,Unclear,Killed,Nangarhar,Unclear,Unclear,Unclear,Unknown,,,34.27,70.48
+4,11/19/2001,19,11,2001,Spain,Unclear,Female,,Journalist,Unclear,Killed,Nangarhar,Unclear,Unclear,Unclear,Unknown,,,34.27,70.48
+5,11/27/2001,27,11,2001,Sweden,Unclear,Male,,Journalist,Freelance,Killed,Nangarhar,Unclear,Unclear,Unclear,Unknown,,,34.27,70.48
+6,8/28/2002,28,8,2002,New Zealand,Unclear,Male,,Journalist,Freelance,Killed,Kabul,Unclear,Unclear,Unclear,Unknown,,,34.55,69.33
+7,8/3/2004,3,8,2004,Kabul,Kabul,Male,,Journalist,Salam Watandar,Threatened,Kabul,Kabul,Kabul,Reporting,Unknown,,,34.55,69.33
+8,5/4/2005,4,5,2005,Takhar,Taluqan,Male,,Journalist,Tkharestan FM,Threatened,Takhar,Taluqan City,Taluqan City,Reporting,Unknown,,,36.7,69.78
+9,5/4/2005,4,5,2005,Jawzjan,Sheberghan,Male,,Journalist,Aina TV,Beaten,Jawzjan,Shberghan,Shberghan,Reporting,Unknown,,,36.83,65.85
+10,4/18/2005,18,4,2005,Kabul,Kabul,Female,,TV Presenter,Tolo TV,Killed,Kabul,Kabul,Kabul,Woman on TV,Unknown,,,34.55,69.33
+11,7/3/2005,3,7,2005,Kabul,Kabul,Male,,TV Presenter,Tolo TV,Beaten,Kabul,Kabul City,Kabul City,Seen on TV in new style,Government,,,34.55,69.33
+12,7/3/2001,3,7,2001,Kabul,Kabul,Male,,Reporter,Aftab Weekly,Beaten,Kabul,Kabul City,Kabul City,Publishing an article,Unknown,,,34.55,69.33
+13,7/3/2005,3,7,2005,Kabul,Kabul,Male,,Reporter,Pajhwok,Threatened,Kabul,Kabul,Kabul,Reporting,Government,,,34.55,69.33
+14,7/5/2005,5,7,2005,Kabul,Kabul,Male,,Reporter,Pajhwok,Threatened,Kabul,Kabul City,Kabul City,Reporting,Government,,,34.55,69.33
+15,7/13/2005,13,7,2005,Kabul,Kabul,Male,,Journalist,Chye dagh Weekly,Beaten,Kabul,Kabul City,Kabul City,Reporting,Government,,,34.55,69.33
+16,9/8/2005,8,9,2005,Kabul,Kabul,Male,,Journalist,Sadaye afghan news agency,Beaten,Kabul,Kabul City,Kabul City,Reporting,Government,,,34.55,69.33
+17,9/8/2005,8,9,2005,Kabul,Kabul,Male,,Journalist,Sadaye afghan news agency,Beaten,Kabul,Kabul City,Kabul City,Reporting,Government,,,34.55,69.33
+18,9/14/2005,14,9,2005,Kabul,Kabul,Male,,Journalist,Bamiyan Weekly,Kidnapped,Nuristan,Waigal District,Waigal District,Reporting,un known armed men,,,35.42,70.79
+19,7/14/2005,14,7,2005,Kabul,Kabul,Male,,Journalist,Aina TV,Beaten,Kabul,Kabul City,Kabul City,Reporting,Government,,,34.55,69.33
+20,7/14/2005,14,7,2005,Kabul,Kabul,Male,,Journalist,Aina TV,Beaten,Kabul,Kabul City,Kabul City,Reporting,Government,,,34.55,69.33
+21,10/1/2005,1,10,2005,Kabul,Kabul,Male,,Journalist,Women's Rights Magazine,Arrested,Kabul,Kabul City,Kabul City,Publishing an article about apostasy,Government,,,34.55,69.33
+22,11/30/2005,30,11,2005,Khost,Khost City,Male,,Journalist,Soli Paygham Radio,Killed,Khost,Haidar Khil District,Haidar Khil District,Roadside bomb near army base,,,,33.38,69.83
+23,11/30/2005,30,11,2005,Panjshir,Unclear,Male,,Journalist,Pajhwok,Threatened,Baghlan,Pol-e-Khomri City,Pol-e-Khomri City,Asking question from Baghlan police commander about a bomb blast,Baghlan police comonder,,,35.8,68.91
+24,12/12/2005,12,12,2005,Kabul,Kabul City,Male,,Journalist,Aryana TV,Beaten,Kabul,Kabul City,Kabul City,Reporting from demonstration,Police,,,34.55,69.33
+25,12/12/2005,12,12,2005,Kabul,Kabul City,Male,,Camera Man,Aryana TV,Beaten,Kabul,Kabul City,Kabul City,Reporting from demonstration,Police,,,34.55,69.33
+26,1/1/2006,1,1,2006,Kabul,Kabul City,Male,,Journalist,Al Jazeera,Arrested,Kabul,Kabul City,Kabul City,Filming in the vicinity of Camp Eggers in Kabul,CFC Coalition forces,,,34.55,69.33
+27,1/1/2006,1,1,2006,Kabul,Kabul City,Male,,Journalist,Al Jazeera,Arrested,Kabul,Kabul City,Kabul City,Filming in the vicinity of Camp Eggers in Kabul,CFC Coalition forces,,,34.55,69.33
+28,1/9/2006,9,1,2006,Kandahar,Kandahar City,Male,,Journalist,Narenj Magazine,Arrested,Kandahar,Kandahar,Kandahar,Unclear,CFC Coalition forces,,,31.04,65.71
+29,2/9/2006,9,2,2006,Hirat,Hirat City,Male,,Journalist,Tolo TV,Beaten,Hirat,Hirat City,Hirat City,Reporting from Shia and Sunni riot in Hirat,Police,,,34.2,62.13
+30,2/9/2006,9,2,2006,Hirat,Hirat City,Male,,Journalist,Pajhwok,Beaten,Hirat,Hirat City,Hirat City,Reporting from Shia and Sunni riot in Hirat,Police,,,34.2,62.13
+31,2/9/2006,9,2,2006,Hirat,Hirat City,Male,,Journalist,Radio Ashna,Threatened,Hirat,Hirat City,Hirat City,Reporting from Shia and Sunni riot in Hirat,Police,,,34.2,62.13
+32,2/9/2006,9,2,2006,Hirat,Hirat City,Male,,Journalist,Azadi Radio,Beaten,Hirat,Hirat City,Hirat City,Reporting from Shia and Sunni riot in Hirat,Police,,,34.2,62.13
+33,2/6/2011,,2,2006,Parwan,Jabulsaraj District,Male,,Journalist,Sadaye Sulh FM,Arrested,Kabul,Kabul City,Kabul City,To an attempted murder,Government,,,34.55,69.33
+34,5/9/2006,9,5,2006,Kabul,Kabul City,Male,,Journalist,Tolo TV,Beaten,Kabul,Kabul City,Kabul City,Filming from Parliament,member of parliament,,,34.55,69.33
+35,5/27/2006,27,5,2006,Kabul,Kabul City,Male,,Journalist,Aina TV,Beaten,Kabul,Kabul City,Kabul City,On the way from office to Parliament,president security officers,,,34.55,69.33
+36,5/27/2006,27,5,2006,Kabul,Kabul City,Male,,Journalist,Aina TV,Beaten,Kabul,Kabul City,Kabul City,On the way from office to Parliament,president security officers,,,34.55,69.33
+37,5/27/2006,27,5,2006,Kabul,Kabul City,Male,,Journalist,Aina TV,Beaten,Kabul,Kabul City,Kabul City,On the way from office to Parliament,president security officers,,,34.55,69.33
+38,6/6/2011,,6,2006,Khost,Khost City,Male,,Journalist,Jawan Ghagh,Threatened,Khost,Khost City,Khost City,Reporting,Khost Governor,,,33.38,69.83
+39,6/6/2011,,6,2006,Wardak,Said Abad District,Male,,Radio Manager,Radio Yawali Ghazh,Threatened,Wardak,Said Abad District,Said Abad District,Radio Broadcasting,Taliban,,,34.3,68.22
+40,6/16/2006,16,6,2006,Nangarhar,Jalalabad,Male,,Journalist,Afghan Islamic News Agency,Threatened,Nangarhar,Jalalabad,Jalalabad,Publishing an article,Taliban,,,34.27,70.48
+41,7/29/2006,29,7,2006,Kabul,Kabul City,Male,,Journalist,Tolo TV,Beaten,Kabul,Kabul City,Kabul City,Reporting,Unknown,,,34.55,69.33
+42,7/22/2006,22,7,2006,Kandahar,Kandahar City,Male,,Camera Man,Aryana TV,Killed,Kandahar,Kandahar City,Kandahar City,In a suicide attack in Kandahar City,Taliban,,,31.04,65.71
+43,7/13/2006,13,7,2006,Hilmand,Lashkargah City,Male,,Journalist,Azadi Radio,Threatened,Hilmand,Lashkargah City,Lashkargah City,Reporting,Government,,,31.12,64.02
+44,8/13/2006,13,8,2006,Khost,Khost City,Male,,Journalist,Freelance,Beaten,Khost,Khost City,Khost City,Reporting,Unknown Individuals,,,33.38,69.83
+45,7/6/2011,,7,2006,Paktia,Gardiz City,Male,,Journalist,Soli Paygham Radio,Beaten,Paktya,Gardiz,Gardiz,Reporting,Taliban,,,33.63,69.39
+46,7/6/2011,,7,2006,Paktia,Gardiz City,Male,,Journalist,RTA,Beaten,Paktya,Gardiz,Gardiz,Reporting from a suicide attack,Taliban,,,33.63,69.39
+47,2006,,,2006,Paktia,Gardiz City,Male,,Journalist,RTA,Threatened,Paktya,Gardiz,Gardiz,Reporting from a suicide attack,Unknown Individuals,,,33.63,69.39
+48,9/6/2011,,9,2006,Paktia,Gardiz City,Male,,Journalist,Soli Paygham Radio,Beaten,Paktya,Gardiz,Gardiz,Reporting,Government,,,33.63,69.39
+49,8/23/2006,23,8,2006,Kabul,Kabul City,Male,,Manager,Arman Mili Daily,Arrested,Kabul,Kabul City,Kabul City,Publishing an article,Government,,,34.55,69.33
+50,10/12/2006,12,10,2006,Italy,Italian,Male,,Journalist,Freelance,Kidnapped,Kandahar,,,Reporting,Unknown Individuals,,,31.04,65.71
+51,10/28/2006,28,10,2006,Germany,Unclear,Male,,Journalist,DW,Killed,Baghlan,,,Reporting,Unknown Individuals,,,35.8,68.91
+52,10/28/2006,28,10,2006,Germany,Unclear,Male,,Journalist,Dochiwele,Killed,Baghlan,,,Reporting,Unknown Individuals,,,35.8,68.91
+53,10/4/2006,4,10,2006,Hirat,Hirat City,Male,,Journalist,Aryana TV,Threatened,Hirat,Hirat City,Hirat City,Reporting,General Attorney,,,34.2,62.13
+54,10/4/2006,4,10,2006,Kabul,Kabul City,Male,,ATV Manager,Aryana TV,Threatened,Hirat,Hirat City,Hirat City,Reporting,General Attorney,,,34.2,62.13
+55,10/17/2006,17,10,2006,Kabul,Kabul City,Male,,Journalist,RTA,Beaten,Kabul,Kabul City,Kabul City,Covering press conference of an AF minister,Police,,,34.55,69.33
+56,1/22/2007,22,1,2007,Kabul,Kabul City,Male,,Journalist,Tolo TV,Arrested,Kabul,Kabul City,Kabul City,Reporting,Government,,,34.55,69.33
+57,1/22/2007,22,1,2007,Kabul,Kabul City,Male,,Journalist,Tolo TV,Arrested,Kabul,Kabul City,Kabul City,Reporting,Government,,,34.55,69.33
+58,1/5/2007,5,1,2007,Nangarhar,Jalalabad,Male,,Journalist,Radio Ashna,Threatened,Nangarhar,Jalalabad,Jalalabad,Reporting,Taliban,,,34.27,70.48
+59,2007,,,2007,Hilmand,Lashkargah City,Male,,Journalist,Radio BBC,Threatened,Hilmand,Lashkargah City,Lashkargah City,Reporting,Taliban,name unclear,,31.12,64.02
+60,2007,,,2007,Laghman,Mehtarlam,Male,,Journalist,Pajhwok,Threatened,Laghman,Mehtarlam City,Mehtarlam City,Reporting,Taliban,name unclear because of threats,,34.76,70.16
+61,1/13/2007,13,1,2007,Laghman,Mehtarlam,Male,,Journalist,Pajhwok,Threatened,Laghman,Mehtarlam City,Mehtarlam City,Reporting,Governor,,,34.76,70.16
+62,1/13/2007,13,1,2007,Laghman,Mehtarlam,Male,,Journalist,Aryana TV,Threatened,Laghman,Mehtarlam City,Mehtarlam City,Reporting,Government,,,34.76,70.16
+63,1/13/2007,13,1,2007,Laghman,Mehtarlam,Male,,Journalist,AP,Threatened,Laghman,Mehtarlam City,Mehtarlam City,Reporting,Government,,,34.76,70.16
+64,1/14/2007,14,1,2007,Kabul,Kabul City,Male,,Journalist,Freelance Journalist,Arrested,Nangarhar,,,Face to face interview with Taliban spokesperson,Government,,,34.27,70.48
+65,2/17/2007,17,2,2007,Faryab,Andkhoy,Male,,Journalist,Qoll Nashray,Killed,Faryab,Andkhoy District,Andkhoy District,Unclear,Unknown Individuals,,,36.06,64.87
+66,2/19/2007,19,2,2007,Hirat,Hirat City,Male,,Journalist,Aryana TV,Beaten,Hirat,Hirat City,Hirat City,Reporting from Shia and Sunni riot in Hirat,Police,,,34.2,62.13
+67,2/19/2007,19,2,2007,Hirat,Hirat City,Male,,Journalist,Aryana TV,Beaten,Hirat,Hirat City,Hirat City,Reporting from demonstration,Police,,,34.2,62.13
+68,2/25/2007,25,2,2007,Hilmand,Lashkargah City,Male,,Journalist,Al Jazeera,Kidnapped,Hilmand,Unclear,Unclear,Went for interview with Taliban,Taliban,,,31.12,64.02
+69,2/13/2005,13,2,2005,Logar,Pol-e-Alam,Male,,Journalist,Radio Esteqlal,Beaten,Logar,Pol-e-Alam,Pol-e-Alam,Reporting,Government,,,34.01,69.17
+70,3/6/2007,6,3,2007,Italy,Unclear,Male,,Journalist,La republica,Kidnapped,Hilmand,Nad Ali destrict,Nad Ali destrict,For interviewing,Taliban,,,31.12,64.02
+71,2007,,,2007,Daykundi,Nily,Male,,Journalist,Radio Daykundi,Arrested,Daykundi,Nily City,Nily City,Reporting,Government,,,33.69,66.18
+72,2007,,,2007,Baghlan,Nahrin District,Male,,Journalist,Radio Trajmeer,Beaten,Baghlan,Nahrin destrict,Nahrin destrict,Reporting from clashes of two commanders,Police,,,35.8,68.91
+73,2/7/2011,,2,2007,Logar,Pol-e-Alam,Male,,Journalist,Pazhwak & Isteqlal FM,Arrested,Logar,Pol-e-Alam City,Pol-e-Alam City,Reporting from rocket attack on ISAF base,Government,,,34.01,69.17
+74,3/12/2007,12,3,2007,Ghazni,Ghazni City,Male,,Journalist,Afghnistan Daily,Threatened,Ghazni,Ghazni City,Ghazni City,Reporting,Government,,,33.32,67.81
+75,2/4/2007,4,2,2007,Nangarhar,Jalalabad,Male,,Journalist,AP,Threatened,Nangarhar,Near to Jalabad City,Near to Jalabad City,Reporting on suicide attack,CFC Coalition forces,,,34.27,70.48
+76,2/4/2007,4,2,2007,Nangarhar,Jalalabad,Male,,Journalist,Aryana TV,Threatened,Nangarhar,Near to Jalabad City,Near to Jalabad City,Reporting on suicide attack,CFC Coalition forces,,,34.27,70.48
+77,2/4/2007,4,2,2007,Nangarhar,Jalalabad,Male,,Journalist,Tolo TV,Threatened,Nangarhar,Near to Jalabad City,Near to Jalabad City,Reporting on suicide attack,CFC Coalition forces,name not clear,,34.27,70.48
+78,4/8/2007,8,4,2007,Kabul,Kabul City,Male,,Journalist,Freelance,Killed,Hilmand,Nad Ali destrict,Nad Ali destrict,Travel to insecure area,Taliban,,,31.12,64.02
+79,4/17/2007,17,4,2007,Kabul,Kabul City,Male,,Chief Editor,Tolo TV,Arrested,Kabul,Kabul City,Kabul City,Reporting,General Attorney,,,34.55,69.33
+80,4/17/2007,17,4,2007,Kabul,Kabul City,Male,,Journalist,Tolo TV,Arrested,Kabul,Kabul City,Kabul City,Reporting,General Attorney,,,34.55,69.33
+81,4/17/2007,17,4,2007,Kabul,Kabul City,Male,,Journalist,AP,Arrested,Kabul,Kabul City,Kabul City,REPOR,General Attorney,,,34.55,69.33
+82,5/17/2007,17,5,2007,Kandahar,Kandahar City,Male,,Journalist,AP,Injured,Kandahar,Kandahar City,Kandahar City,Reporting bomb blast,Taliban,,,31.04,65.71
+83,5/17/2007,17,5,2007,Kandahar,Kandahar City,Male,,Journalist,Al Jazeera,Injured,Kandahar,Kandahar City,Kandahar City,Reporting bomb blast,Taliban,,,31.04,65.71
+84,5/17/2007,17,5,2007,Kandahar,Kandahar City,Male,,Journalist,Azadi Radio,Injured,Kandahar,Kandahar City,Kandahar City,Reporting bomb blast,Taliban,,,31.04,65.71
+85,5/30/2007,30,5,2007,Kabul,Kabul City,Female,,TV Presenter,Shamshad TV,Killed,Kabul,Kabul City,Kabul City,Unclear,Unknown Individuals,,,34.55,69.33
+86,5/24/2007,24,5,2007,Kabul,Kabul City,Female,,Journalist,Cheragh Daily,Threatened,Kabul,Kabul City,Kabul City,Reporting,Police,,,34.55,69.33
+87,6/5/2007,5,6,2007,Parwan,Jabulsaraj District,Female,,President,Solh Radio,Killed,Parwan,Jabulsaraj District,Jabulsaraj District,Unclear,Unknown Individuals,,,34.96,68.89
+88,6/28/2007,28,6,2007,Kabul,Kabul City,Male,,Chief Editor,Solh Jirga Magazin,Arrested,Kabul,Kabul City,Kabul City,Reporting,Government,,,34.55,69.33
+89,6/24/2007,24,6,2007,Kunar,Kunar,Male,,Journalist,Kasma TV,Kidnapped,Kunar,Unclear,Unclear,For filming,Taliban,,,34.97,71.09
+90,6/23/2007,23,6,2007,Samangan,Aibak,Male,,Journalist,Haqiat Radio,Threatened,Samangan,Aibak City,Aibak City,Reporting,Government,,,35.97,67.7
+91,6/23/2007,23,6,2007,Hirat,Hirat City,Male,,Journalist,Nedaye Sloh Radio,Threatened,Hirat,Hirat City,Hirat City,Reporting,Government,,,34.2,62.13
+92,7/4/2007,4,7,2007,Kabul,Kabul City,Male,,President,Kabul Peres,Arrested,Kabul,Kabul City,Kabul City,Reporting,National Directorate of Security,,,34.55,69.33
+93,8/7/2007,7,8,2007,Ghazni,Ghazni City,Male,,Journalist,Aryana TV,Beaten,Ghazni,Ghazni City,Ghazni City,Reporting,Government,,,33.32,67.81
+94,8/9/2007,9,8,2007,Kabul,Kabul City,Male,,President,Kabul Peres,Arrested,Kabul,Kabul City,Kabul City,Reporting,National Directorate of Security,,,34.55,69.33
+95,2007,,,2007,Baghlan,Pol-e-Khomri,Male,,Journalist,Azadi Radio,Threatened,Baghlan,Pol-e-Khomri,Pol-e-Khomri,Reporting,Unknown Individuals,,,35.8,68.91
+96,9/14/2007,14,9,2007,Khost,Khost City,Male,,Journalist,Aryana TV,Beaten,Khost,Yaqoobi District,Yaqoobi District,Reporting,Police,,,33.38,69.83
+97,10/14/2007,14,10,2007,Kabul,Kabul City,Male,,Journalist,Payam-e-Mujahid,Beaten,Kabul,Kabul City,Kabul City,Reporting from demonstration,Government,,,34.55,69.33
+98,1/7/2011,,1,2007,Kunduz,Kondoz City,Female,,President,Zohra Radio,Threatened,Kunduz,Kunduz City,Kunduz City,Radio programs for women,Unknown Individuals,,,36.84,68.75
+99,2007,,,2007,Kunduz,Kondoz City,Female,,Journalist,Zohra Radio,Threatened,Kunduz,Kunduz City,Kunduz City,Radio programs for women,Unknown Individuals,,,36.84,68.75
+100,2007,,,2007,Kabul,Kabul City,Female,,Chief Editor,Cheragh Daily,Threatened,Kabul,Kabul City,Kabul City,Publishing an article,Unknown Individuals,,,34.55,69.33
+101,2007,,,2007,Kabul,Kabul City,Male,,Journalist,Aryana TV,Threatened,Kabul,Kabul City,Kabul City,Reporting,Unknown Individuals,,,34.55,69.33
+102,2007,,,2007,Logar,Baraki Barak District,Male,,President,Radio Esteqlal,Threatened,Logar,Baraki Barak District,Baraki Barak District,Reporting,Unknown Individuals,,,34.01,69.17
+103,2007,,,2007,Logar,Baraki Barak District,Male,,Journalist,Radio Esteqlal,Threatened,Logar,Baraki Barak District,Baraki Barak District,Reporting,Unknown Individuals,,,34.01,69.17
+104,2007,,,2007,Kabul,Kabul City,Male,,Journalist,Freelance,Threatened,Kabul,Kabul City,Kabul City,After released from jail received calls from Taliban,Taliban,,,34.55,69.33
+105,11/8/2007,8,11,2007,Hilmand,Lashkargah City,Male,,Journalist,Aryana TV,Arrested,Hilmand,Moosa qala,Moosa qala,After returning from Moosa qala District the Taliban kidnapped them,Government,,,31.12,64.02
+106,11/8/2007,8,11,2007,Hilmand,Lashkargah City,Male,,Journalist,IWPR,Arrested,Hilmand,Moosa qala,Moosa qala,After returning from Moosa qala District the Taliban kidnapped them,Government,,,31.12,64.02
+107,11/8/2007,8,11,2007,Hilmand,Lashkargah City,Male,,Journalist,BBC,Arrested,Hilmand,Moosa qala,Moosa qala,After returning from Moosa qala District the Taliban kidnapped them,Government,,,31.12,64.02
+108,11/8/2007,8,11,2007,Hilmand,Lashkargah City,Male,,Journalist,Al Jazeera,Arrested,Hilmand,Moosa qala,Moosa qala,After returning from Moosa qala District the Taliban kidnapped them,Government,,,31.12,64.02
+109,11/27/2007,27,11,2007,Kabul,Kabul City,Male,,Reporter,Cheragh Daily,Arrested,Kabul,Kabul City,Kabul City,Unclear,National Directorate of Security,,,34.55,69.33
+110,11/27/2007,27,11,2007,Kabul,Kabul City,Male,,Reporter,Cheragh Daily,Arrested,Kabul,Kabul City,Kabul City,Unclear,National Directorate of Security,,,34.55,69.33
+111,11/27/2007,27,11,2007,Kabul,Kabul City,Male,,Reporter,Cheragh Daily,Arrested,Kabul,Kabul City,Kabul City,Unclear,National Directorate of Security,,,34.55,69.33
+112,11/28/2007,28,11,2007,Laghman,Mehtarlam,Male,,Reporter,Laghman government Radio,Arrested,Laghman,Mehtarlam City,Mehtarlam City,Reporting,Laghman NDS,,,34.76,70.16
+113,10/7/2011,,10,2007,Kapisa,Nejrab District,Male,,Owner,Sadai-e- Nejrab Radio,Threatened,Kapisa,Nejrab District,Nejrab District,Reporting,Unknown Individuals,,,34.96,69.62
+114,12/24/2007,24,12,2007,Kabul,Kabul City,Male,,Reporter,Cheragh Daily,Beaten,Kabul,Kabul City,Kabul City,Reporting,Afghanistan Olympic,,,34.55,69.33
+115,12/4/2007,4,12,2007,Kabul,Kabul City,Male,,Reporter,Salam Watandar,Beaten,Kabul,Kabul City,Kabul City,Reporting,tenth police District of Kabul City comonder,,,34.55,69.33
+116,12/29/2007,29,12,2007,Kabul,Kabul City,Female,,Reporter,Cheragh Daily,Threatened,Kabul,Kabul City,Kabul City,Reporting,first police District of Kabul City comonder,,,34.55,69.33
+117,12/1/2007,1,12,2007,Daykundi,Nily,Male,,Owner,Radio Daykundi,Arrested,Daykundi,Nily City,Nily City,Reporting,Daykundi Governor,,Danish reporter,33.69,66.18
+118,1/4/2008,4,1,2008,Norway,Unclear,Male,,Reporter,Dagiladet Daily,Killed,Kabul,Kabul City,Kabul City,Reporting,suicide attack in Kabul serina hotle,,,34.55,69.33
+119,1/22/2008,22,1,2008,Balkh,Mazar-e-sharif,Male,,Reporter,Jahan-e- Naw publication,Arrested,Balkh,Mazar-e-Sharif,Mazar-e-Sharif,Blasphemy,Afghanistan Government,,,36.67,67.08
+120,1/8/2011,,1,2008,Kunduz,Kondoz City,Male,,Owner,Sadai-e-watan publication,Beaten,Kunduz,Kunduz City,Kunduz City,Reporting,kondoz police,,,36.84,68.75
+121,3/27/2008,27,3,2008,Kabul,Kabul City,Male,,Freelance Journalist,Unclear,Threatened,Kabul,Kabul City,Kabul City,Unclear,Unknown Individuals,,,34.55,69.33
+122,4/28/2008,28,4,2008,Australia,Unclear,Male,,Reporter,American Magazine,Injured,Nangarhar,Khogiani District,Khogiani District,Reporting form poppy cultivation,suicide attack in Khogiani District,,,34.27,70.48
+123,4/28/2008,28,4,2008,Australia,Unclear,Male,,Reporter,American Magazine,Injured,Nangarhar,Khogiani District,Khogiani District,Reporting form poppy cultivation,suicide attack in Khogiani District,,,34.27,70.48
+124,4/10/2008,10,4,2008,Hirat,Hirat City,Female,,Deputy Director,Faryad FM,Threatened,Hirat,Hirat City,Hirat City,Unclear,Unknown Individuals,,name and country unclear ,34.2,62.13
+125,4/9/2008,9,4,2008,Ghor,Cheghcheran City,Male,,Owner,Saam Magazine,Arrested,Ghor,Cheghcheran,Cheghcheran,Reporting,Government,,name and country unclear,34.18,64.93
+126,4/11/2008,11,4,2008,Hirat,Hirat City,Male,,Director,RTA Hirat,Beaten,Hirat,Hirat City,Hirat City,Interview,Hirat Governor Said Hosain Anwari,,,34.2,62.13
+127,5/15/2008,15,5,2008,Hirat,Hirat City,Female,,Reporter,RTA Hirat,Beaten,Hirat,Hirat City,Hirat City,Unclear,Unknown Individuals,,,34.2,62.13
+128,5/7/2008,7,5,2008,Kabul,Kabul City,Male,,Presenter,RTA,Threatened,Kabul,Kabul City,Kabul City,Unclear,Information and colture minister (Karim Khoram),,,34.55,69.33
+129,5/6/2008,6,5,2008,Kabul,Kabul City,Male,,Writer,Payam-e-mujahid Weekly,Threatened,Kabul,Kabul City,Kabul City,Unclear,Unknown Individuals,,,34.55,69.33
+130,6/7/2008,7,6,2008,Hilmand,Lashkargah City,Male,,Reporter,BBC& Pajhwok news agency,Killed,Hilmand,near to Lashkargah City,near to Lashkargah City,Reporting,Unknown Individuals,,,31.12,64.02
+131,6/11/2008,11,6,2008,Baghlan,Pol-e-Khomri,Male,,Writer,Freelance,Arrested,Kabul,Kabul City,Kabul City,Writing an article in newspaper,National Directorate of Security,,,34.55,69.33
+132,6/22/2008,22,6,2008,Logar,Pol-e-Alam,Male,,Reporter,Bakhtar news agency,Arrested,Logar,Pol-e-Alam City,Pol-e-Alam City,Reporting,Logar NDS,,,34.01,69.17
+133,6/23/2008,23,6,2008,Daykundi,Nili City,Male,,Chief Editor,Nili Radio,Arrested,Daykundi,Nily City,Nily City,Reporting,Daykundi Governor,,,33.69,66.18
+134,6/30/2008,30,6,2008,Kabul,Kabul City,Male,,Chief Editor,Pamir Weekly,Threatened,Kabul,Kabul City,Kabul City,Reporting,Kabul Municipality,,,34.55,69.33
+135,6/15/2008,15,6,2008,Hilmand,Lashkargah City,Male,,Reporter,Salam Watandar,Threatened,Hilmand,Lashkargah City,Lashkargah City,Reporting,Unknown Individuals,,,31.12,64.02
+136,6/30/2008,30,6,2008,Kabul,Kabul City,Male,,Deputy Director,Pamir Weekly Governmental,Threatened,Kabul,Kabul City,Kabul City,Reporting,Kabul Municipality,,,34.55,69.33
+137,6/30/2008,30,6,2008,Kabul,Kabul City,Male,,Reporter,Pamir Weekly Governmental,Threatened,Kabul,Kabul City,Kabul City,Reporting,Kabul Municipality,,,34.55,69.33
+138,6/30/2008,30,6,2008,Kabul,Kabul City,Male,,Reporter,Pamir Weekly Governmental,Threatened,Kabul,Kabul City,Kabul City,Reporting,Kabul Municipality,,,34.55,69.33
+139,6/30/2008,30,6,2008,Kabul,Kabul City,Male,,Reporter,Pamir Weekly Governmental,Threatened,Kabul,Kabul City,Kabul City,Reporting,Kabul Municipality,,,34.55,69.33
+140,6/22/2008,22,6,2008,Kabul,Kabul City,Male,,Reporter,Aryana TV,Beaten,Kabul,Kabul City,Kabul City,Reporting,Hazara nation demonistration,,,34.55,69.33
+141,7/28/2007,28,7,2007,Kabul,Kabul City,Male,,Producer,Aryana TV,Arrested,Kabul,Kabul City,Kabul City,TV program,National Directorate of Security,,,34.55,69.33
+142,7/18/2008,18,7,2008,Ghazni,Ghazni City,Male,,Reporter,Al Jazeera,Arrested,Ghazni,Ghazni City,Ghazni City,Reporting and filming from Taliban,National Directorate of Security,,,33.32,67.81
+143,7/2/2008,2,7,2008,Hirat,Hirat City,Male,,Reporter,Faryad FM,Beaten,Hirat,Hirat City,Hirat City,Reporting,Hirat police,,,34.2,62.13
+144,8/29/2008,29,8,2008,Nangarhar,Jalalabad,Male,,Reporter,Tolo TV,Beaten,Nangarhar,Jalalabad,Jalalabad,Reporting from demonstration,Nengarhar police,,,34.27,70.48
+145,8/5/2008,5,8,2008,Hilmand,Lashkargah City,Male,,Reporter,Salam Watandar,Threatened,Hilmand,Lashkargah City,Lashkargah City,Reporting,Unknown Individuals,,,31.12,64.02
+146,8/13/2008,13,8,2008,Faryab,Maimana City,Female,,Director,Quyash Radio,Threatened,Faryab,Maimana City,Maimana City,Reporting,Faryab Governor,,,36.06,64.87
+147,9/11/2008,11,9,2008,Kabul,Kabul City,Male,,Journalist,Freelance,Arrested,Kabul,Kabul City,Kabul City,Blasphemy,General Attorney,,,34.55,69.33
+148,9/18/2008,18,9,2008,Kabul,Kabul City,Male,,Reporter,VOA,Threatened,Kabul,Kabul City,Kabul City,Reporting,Unknown Individuals,,,34.55,69.33
+149,9/13/2008,13,9,2008,Kabul,Kabul City,Female,,Director,Killid FM,Threatened,Kabul,Kabul City,Kabul City,Reporting,Kabul anti criminal police dirictor (Alishah paktiawal,,,34.55,69.33
+150,10/23/2008,23,10,2008,Kabul,Kabul City,Male,,Director,Arman Mili Daily,Arrested,Kabul,Kabul City,Kabul City,Publishing an article,General Attorney,,,34.55,69.33
+151,10/12/2008,12,10,2008,Canada,Canada,Female,,Reporter,CBC Candian TV,Kidnapped,Kabul,near to Kabul City,near to Kabul City,Reporting and filming from refugee camp,Unknown Individuals,,,34.55,69.33
+152,10/30/2008,30,10,2008,Holland,Unclear,Female,,Reporter,Unclear,Kidnapped,Kabul,Suroobi District,Suroobi District,Reporting,Unknown Individuals,,,34.55,69.33
+153,11/10/2008,10,11,2008,Unknown,Unclear,Male,,Reporter,New York Times,Kidnapped,Logar,Charkh District,Charkh District,Travelling from Kabul to Charkh District of Logar,Unknown Individuals,,,34.01,69.17
+154,11/29/2008,29,11,2008,Hirat,Hirat City,Male,,Reporter,Etefaq-e- Islam Daily,Beaten,Hirat,Hirat City,Hirat City,Reporting,Hirat police,,,34.2,62.13
+155,11/25/2008,25,11,2008,Kandahar,Kandahar City,Male,,Reporter,Azadi Radio,Kidnapped,Zabul,Shahjoi District,Shahjoi District,Traveling from Kabul to Kandahar,Taliban,,,32.2,67.15
+156,11/25/2008,25,11,2008,Kandahar,Kandahar City,Male,,Reporter,Hewad TV,Kidnapped,Zabul,Shahjoi District,Shahjoi District,Traveling from Kabul to Kandahar,Taliban,,,32.2,67.15
+157,12/5/2008,5,12,2008,Kabul,Kabul City,Male,,Camera Man,Tolo TV,Beaten,Kabul,Kabul City,Kabul City,Reporting from demonstration,Police,,,34.55,69.33
+158,12/29/2008,29,12,2008,Kabul,Kabul City,Male,,Reporter,Jabha-e- Mili Daily,Beaten,Kabul,Kabul City,Kabul City,Reporting,Kabul police,,,34.55,69.33
+159,1/14/2008,14,1,2008,Kabul,Kabul City,Female,,Writer,Payman Daily,Arrested,Kabul,Kabul City,Kabul City,Writing an article in newspaper,General Attorney,,,34.55,69.33
+160,1/14/2008,14,1,2008,Kabul,Kabul City,Male,,Writer,Payman Daily,Arrested,Kabul,Kabul City,Kabul City,Writing an article in newspaper,General Attorney,,,34.55,69.33
+161,1/14/2008,14,1,2008,Kabul,Kabul City,Male,,Writer,Payman Daily,Arrested,Kabul,Kabul City,Kabul City,Writing an article in newspaper,General Attorney,,,34.55,69.33
+162,1/14/2008,14,1,2008,Kabul,Kabul City,Male,,Reporter,Payman Daily,Arrested,Kabul,Kabul City,Kabul City,Writing an article in newspaper,General Attorney,,,34.55,69.33
+163,1/14/2008,14,1,2008,Kabul,Kabul City,Male,,Reporter,Payman Daily,Arrested,Kabul,Kabul City,Kabul City,Writing an article in newspaper,General Attorney,,,34.55,69.33
+164,1/14/2008,14,1,2008,Kabul,Kabul City,Male,,Reporter,Payman Daily,Arrested,Kabul,Kabul City,Kabul City,Writing an article in newspaper,General Attorney,,,34.55,69.33
+165,1/14/2008,14,1,2008,Kabul,Kabul City,Male,,Reporter,Payman Daily,Arrested,Kabul,Kabul City,Kabul City,Writing an article in newspaper,General Attorney,,,34.55,69.33
+166,1/19/2009,19,1,2009,Kabul,Kabul City,Female,,Reporter,Cheragh Daily,Threatened,Kabul,Kabul City,Kabul City,Reporting,Kabul police,,,34.55,69.33
+167,1/2/2009,2,1,2009,Kabul,Kabul City,Male,,Reporter,Al Jazeera,Kidnapped,Kunar,Nawrangee District,Nawrangee District,Filming and Reporting,Taliban,,,34.97,71.09
+168,2/11/2009,11,2,2009,Kabul,Kabul City,Male,,Chief Editor,Payman Daily,Threatened,Kabul,Kabul City,Kabul City,After released from police custody,Unknown Individuals,,,34.55,69.33
+169,2/2/2009,2,2,2009,Kabul,Kabul City,Male,,Reporter,Pajhwok,Beaten,Kabul,Kabul City,Kabul City,Filming from a suicide attack in Kabul City,National Directorate of Security,,,34.55,69.33
+170,2/18/2009,18,2,2009,Kabul,Kabul City,Female,,Reporter,Cheragh Daily,Threatened,Kabul,Kabul City,Kabul City,Reporting,Unknown Individuals,,,34.55,69.33
+171,2/1/2009,1,2,2009,Kabul,Kabul City,Male,,Reporter,Salam Watandar,Beaten,Kabul,Kabul City,Kabul City,Reporting and interviewing,Kabul police,,,34.55,69.33
+172,3/7/2009,7,3,2009,Kabul,Kabul City,Male,,Chief Editor,Payman Daily,Arrested,Kabul,Kabul City,Kabul City,Writing an article in newspaper,General Attorney,,,34.55,69.33
+173,3/7/2009,7,3,2009,Kabul,Kabul City,Male,,Camera Man,Tolo TV,Beaten,Kabul,Kabul City,Kabul City,Reporting,president security officers,,,34.55,69.33
+174,3/10/2009,10,3,2009,Kandahar,Kandahar City,Male,,Reporter,Canadian CTV,Killed,Kandahar,Kandahar City,Kandahar City,Unclear,Unknown Individuals,,,31.04,65.71
+175,3/23/2009,23,3,2009,Kabul,Kabul City,Male,,Reporter,Aryana TV,Arrested,Kabul,Kabul City,Kabul City,Reporting,Unknown Individuals,,,34.55,69.33
+176,3/23/2009,23,3,2009,Kabul,Kabul City,Male,,Chief Editor,Emroz TV,Arrested,Kabul,Kabul City,Kabul City,TV program,General Attorney,,,34.55,69.33
+177,3/9/2011,,3,2009,Kandahar,Kandahar City,Male,,Reporter,Tolo TV,Threatened,Kandahar,Kandahar City,Kandahar City,Reporting,Unknown Individuals,,,31.04,65.71
+178,4/2/2009,2,4,2009,Khost,Khost City,Male,,Reporter,Wolos Ghag FM,Injured,Khost,Khost City,Khost City,Reporting,Unknown Individuals,,,33.38,69.83
+179,4/15/2009,15,4,2009,Kabul,Kabul City,Male,,Reporter,Tolo TV,Arrested,Kabul,Kabul City,Kabul City,Reporting from demonstration,13th District of Kabul Police,,,34.55,69.33
+180,4/15/2009,15,4,2009,Kabul,Kabul City,Male,,Camera Man,Tolo TV,Arrested,Kabul,Kabul City,Kabul City,Reporting from demonstration,13th District of Kabul Police,,,34.55,69.33
+181,4/15/2009,15,4,2009,Kabul,Kabul City,Male,,Reporter,Aryana TV,Arrested,Kabul,Kabul City,Kabul City,Reporting from demonstration,13th District of Kabul Police,,,34.55,69.33
+182,4/15/2009,15,4,2009,Kabul,Kabul City,Male,,Camera Man,Aryana TV,Arrested,Kabul,Kabul City,Kabul City,Reporting from demonstration,13th District of Kabul Police,,,34.55,69.33
+183,4/27/2009,27,4,2009,Kabul,Kabul City,Male,,Chief Editor,Aaiena-e-Roz Weekly,Beaten,Kabul,Kabul City,Kabul City,Publishing an article,Unknown Individuals,,,34.55,69.33
+184,4/9/2011,,4,2009,Kabul,Kabul City,Male,,News Editor,Salam Watandar,Threatened,Kabul,Kabul City,Kabul City,Threatened via phone calls several times,Unknown Individuals,,,34.55,69.33
+185,5/12/2009,12,5,2009,Khost,Khost City,Male,,Reporter,Aryana TV,Injured,Khost,Khost City,Khost City,Filming and Reporting,Unknown Individuals,,,33.38,69.83
+186,5/9/2011,,5,2009,Daykundi,Nili City,Male,,Chief Editor,Nawa-e-Daykondy,Threatened,Daykundi,Nily City,Nily City,Publishing an article,Daykundi Governor,,,33.69,66.18
+187,5/9/2011,,5,2009,Logar,Pol-e-Alam,Male,,Reporter,Zinat FM,Beaten,Logar,Pol-e-Alam City,Pol-e-Alam City,Presenting a radio program,school manager,,,34.01,69.17
+188,5/22/2009,22,5,2009,Arab,Unclear,Male,,Manager in Kabul,Al Jazeera,Kidnapped,Kunar,Kunar Area,Kunar Area,Traveling from Kunar to Nuristan province,taliban kidnapped them for 8 hours,,,34.97,71.09
+189,5/22/2009,22,5,2009,Afghan,Unclear,Male,,Reporter,Al Jazeera,Kidnapped,Kunar,Kunar Area,Kunar Area,Traveling from Kunar to Nuristan province,taliban kidnapped them for 8 hours,,,34.97,71.09
+190,5/22/2009,22,5,2009,Afghan,Unclear,Male,,Camera Man,Al Jazeera,Kidnapped,Kunar,Kunar Area,Kunar Area,Traveling from Kunar to Nuristan province,taliban kidnapped them for 8 hours,,,34.97,71.09
+191,5/21/2009,21,5,2009,Kandahar,Kandahar City,Male,,Manager,Benawa Web page,Beaten,Kandahar,Kandahar City,Kandahar City,Reporting from a meeting,Police,,,31.04,65.71
+192,5/21/2009,21,5,2009,Kabul,Kabul City,Male,,Reporter,Killid FM,Beaten,Kabul,Kabul City,Kabul City,Interview with ministry of information and culture,Ministry of IC security gards,,,34.55,69.33
+193,6/2/2009,2,6,2009,Khost,Khost City,Male,,Reporter,Killid FM,Arrested,Khost,Khost City,Khost City,Amarican forces operation in his home at night,American forces,,,33.38,69.83
+194,6/14/2009,14,6,2009,Kabul,Kabul City,Male,,Reporter,Al Jazeera,Arrested,Kabul,Kabul City,Kabul City,Reporting,National Directorate of Security,,,34.55,69.33
+195,7/29/2009,29,7,2009,Hirat,Hirat City,Male,,Reporter,Azadi Radio,Beaten,Hirat,Hirat City,Hirat City,Reporting from demonstration,Hirat police,,Left Hilmand,34.2,62.13
+196,7/29/2009,29,7,2009,Hirat,Hirat City,Male,,Reporter,Aryana TV,Beaten,Hirat,Hirat City,Hirat City,Reporting from demonstration,Hirat police,,Left Hilmand,34.2,62.13
+197,7/29/2009,29,7,2009,Hirat,Hirat City,Male,,Reporter,Tolo TV,Beaten,Hirat,Hirat City,Hirat City,Reporting from demonstration,Hirat police,,Left Hilmand,34.2,62.13
+198,7/29/2009,29,7,2009,Hirat,Hirat City,Male,,Reporter,Saba TV,Beaten,Hirat,Hirat City,Hirat City,Reporting from demonstration,Hirat police,,,34.2,62.13
+199,7/29/2009,29,7,2009,Hirat,Hirat City,Male,,Reporter,Reuters,Beaten,Hirat,Hirat City,Hirat City,Reporting from demonstration,Hirat police,,,34.2,62.13
+200,7/29/2009,29,7,2009,Hirat,Hirat City,Male,,Camera Man,Aryana TV,Beaten,Hirat,Hirat City,Hirat City,Reporting from demonstration,Hirat police,,,34.2,62.13
+201,7/25/2009,25,7,2009,Kabul,Kabul City,Female,,Reporter,Killid Weekly,Threatened,Kabul,Kabul City,Kabul City,Reporting and interviewing,Government,,,34.55,69.33
+202,7/19/2009,19,7,2009,Kabul,Kabul City,Male,,Chief Editor,Aryana TV,Kidnapped,Wardak,Out of Maidan City,Out of Maidan City,Traveling from Maidan to a Wardak District,Taliban,,,34.3,68.22
+203,8/12/2009,12,8,2009,Unknown,Unclear,Male,,Reporter,AP,Injured,Kandahar,Kandahar City,Kandahar City,Traveling with Canadian troops (road side bomb),Taliban,,,31.04,65.71
+204,8/12/2009,12,8,2009,Unknown,Unclear,Male,,Reporter,AP,Injured,Kandahar,Kandahar City,Kandahar City,Traveling with Canadian troops (road side bomb),Taliban,,,31.04,65.71
+205,8/20/2009,20,8,2009,Kabul,Kabul City,Male,,Reporter,BBC,Arrested,Kabul,Kabul City,Kabul City,Reporting from polling on election day,Police,,,34.55,69.33
+206,8/20/2009,20,8,2009,Kabul,Kabul City,Male,,Reporter,Aryana TV,Arrested,Kabul,Kabul City,Kabul City,Reporting from polling on election day,Police,,Police,34.55,69.33
+207,8/20/2009,20,8,2009,Kabul,Kabul City,Male,,Reporter and Camera Man,Different Media,Arrested,Kabul,Kabul City,Kabul City,Reporting from polling on election day,Police,their name were not cleared,,34.55,69.33
+208,8/25/2009,25,8,2009,Kandahar,Kandahar City,Male,,Reporter,Azadi Radio,Beaten,Kandahar,Kandahar City,Kandahar City,Reporting,Police,,,31.04,65.71
+209,9/9/2009,9,9,2009,Kabul,Kabul City,Male,,Reporter,New York Times,Killed,Kunduz,Chahardara District,Chahardara District,Filming and Reporting,taliban- English troops,kidnapped with his English friend by Taliban,,36.84,68.75
+210,9/30/2009,30,9,2009,Kabul,Kabul City,Male,,Reporter,Tamadon TV,Beaten,Kabul,Kabul City,Kabul City,Reporting,Police,,,34.55,69.33
+211,9/22/2009,22,9,2009,Ghor,Cheghcheran City,Male,,Reporter,Ghore RTA,Beaten,Ghor,Cheghcheran,Cheghcheran,Interviewing with Ghor Governor,Ghor Governor,,,34.18,64.93
+212,10/5/2009,5,10,2009,Kabul,Kabul City,Male,,Reporter,Wakht news agency,Beaten,Kabul,Kabul City,Kabul City,Filming from traffic accident,Police,,,34.55,69.33
+213,10/20/2009,20,10,2009,Kabul,Kabul City,Male,,Chief Editor,Nokhost Daily,Arrested,Kabul,Kabul City,Kabul City,Publishing an article,interior ministry,,,34.55,69.33
+214,10/20/2009,20,10,2009,Kabul,Kabul City,Male,,Chief Editor,Mandegar Daily,Arrested,Kabul,Kabul City,Kabul City,Publishing an article,interior ministry,,,34.55,69.33
+215,10/9/2011,,10,2009,Hilmand,Lashkargah City,Male,,Director,Bost FM,Threatened,Hilmand,Lashkargah City,Lashkargah City,Radio program,Taliban,,,31.12,64.02
+216,10/9/2011,,10,2009,Hilmand,Lashkargah City,Male,,Reporter,BBC,Threatened,Hilmand,Lashkargah City,Lashkargah City,Reporting,Taliban,,,31.12,64.02
+217,10/9/2011,,10,2009,Hilmand,Lashkargah City,Male,,Reporter,Azadi Radio,Threatened,Hilmand,Lashkargah City,Lashkargah City,Reporting,Taliban,,,31.12,64.02
+218,10/9/2011,,10,2009,Hilmand,Lashkargah City,Male,,Chief Editor,Poya Magazine,Threatened,Hilmand,Lashkargah City,Lashkargah City,Publishing an article,Taliban,,13th district ,31.12,64.02
+219,10/9/2011,,10,2009,Norway,Unclear,Male,,Journalist,Freelance,Kidnapped,Kunar,Manogai District,Manogai District,Filming and Reporting,Taliban,,13th district ,34.97,71.09
+220,2009,,,2009,Arab,Unclear,Male,,Reporter,Guardian,Kidnapped,Kunar,Manogai District,Manogai District,Filming and Reporting,Taliban,,13th district ,34.97,71.09
+221,2009,,,2009,Afghan,Unclear,Male,,Reporter,Guardian,Kidnapped,Kunar,Manogai District,Manogai District,Filming and Reporting,Taliban,,13th district ,34.97,71.09
+222,2009,,,2009,Afghan,Unclear,Male,,Reporter,Guardian,Kidnapped,Kunar,Manogai District,Manogai District,Filming and Reporting,Taliban,,,34.97,71.09
+223,12/12/2009,12,12,2009,Kabul,Kabul City,Male,,Reporter,Sepehr TV,Beaten,Kabul,Kabul City,Kabul City,Filming TV program,Harakat-e-Enqilab member,,,34.55,69.33
+224,12/12/2009,12,12,2009,Kabul,Kabul City,Male,,Camera Man,Sepehr TV,Beaten,Kabul,Kabul City,Kabul City,Filming TV program,Harakat-e-Enqilab member,,,34.55,69.33
+225,12/16/2009,16,12,2009,Kabul,Kabul City,Male,,Producer,Noorin TV,Arrested,Kabul,Kabul City,Kabul City,TV program,Police,,,34.55,69.33
+226,12/17/2009,17,12,2009,Hirat,Hirat City,Male,,Chief Editor,Arj magazin,Beaten,Hirat,Hirat City,Hirat City,Reporting,Hirat Governor gards,,,34.2,62.13
+227,12/17/2009,17,12,2009,Hirat,Hirat City,Male,,Reporter,Tolo TV,Beaten,Hirat,Hirat City,Hirat City,Reporting,Hirat Governor gards,,,34.2,62.13
+228,12/21/2009,21,12,2009,Baghlan,Pol-e-Khomri,Male,,Reporter,Arezo Radio,Beaten,Baghlan,Pol-e-Khomri City,Pol-e-Khomri City,Reporting,Unknown Individuals,,,35.8,68.91
+229,12/28/2009,28,12,2009,French,Unclear,Male,,Reporter,Chanel 3 French TV,Kidnapped,Kapisa,Tagab District,Tagab District,Filming and Reporting,Taliban,,,34.96,69.62
+230,12/28/2009,28,12,2009,French,Unclear,Male,,Reporter,Chanel 3 French TV,Kidnapped,Kapisa,Tagab District,Tagab District,Filming and Reporting,Taliban,,,34.96,69.62
+231,12/28/2009,28,12,2009,Kabul,Kabul City,Male,,Reporter,Chanel 3 French TV,Kidnapped,Kapisa,Tagab District,Tagab District,Filming and Reporting,Taliban,,,34.96,69.62
+232,12/30/2009,30,12,2009,Canada,Unclear,Female,,Reporter,Canwest Magazine,Killed,Kandahar,,,Traveling with Canadian troops (road side bomb),Taliban,,,31.04,65.71
+233,1/9/2010,9,1,2010,English,Unclear,Male,,Reporter,Sunday Mirror,Killed,Hilmand,on the way to Lashkargah,on the way to Lashkargah,Traveling with English troops during road side bomb,Taliban,,,31.12,64.02
+234,1/9/2010,9,1,2010,Unknown,Unclear,Male,,Photographer,Sunday Mirror,Injured,Hilmand,on the way to Lashkargah,on the way to Lashkargah,Traveling with English troops during road side bomb,Taliban,,,31.12,64.02
+235,1/19/2010,19,1,2010,Kandahar,Kandahar City,Male,,Reporter,Tolo TV,Threatened,Kandahar,Kandahar City,Kandahar City,Reporting,Unknown Individuals,,,31.04,65.71
+236,1/15/2010,15,1,2010,Kunduz,Kondoz City,Female,,Director,Zohra Radio,Threatened,Kunduz,Kunduz City,Kunduz City,Radio programming and women's programs,Taliban,,,36.84,68.75
+237,1/22/2010,22,1,2010,Ghor,Cheghcheran City,Male,,Director,Saam Magazine,Threatened,Ghor,Cheghcheran,Cheghcheran,Publishing an article,Cheghcheran City monicipality,,,34.18,64.93
+238,1/26/2010,26,1,2010,Balkh,Mazar-e-sharif,Male,,Reporter,Rahefarda TV,Threatened,Balkh,Mazar-e-Sharif,Mazar-e-Sharif,Reporting,Unknown Individuals,,,36.67,67.08
+239,2/10/2011,,2,2010,Takhar,Taluqan,Male,,Chief Editor,Tasweer Weekly,Threatened,Takhar,Taluqan City,Taluqan City,Publishing an article,Government,,,36.7,69.78
+240,3/1/2010,1,3,2010,Kandahar,Kandahar City,Male,,Reporter,Aryana TV,Arrested,Kandahar,Kandahar City,Kandahar City,Reporting,American forces,,,31.04,65.71
+241,3/1/2010,1,3,2010,Kandahar,Kandahar City,Male,,Reporter,Hewad TV,Arrested,Kandahar,Kandahar City,Kandahar City,Reporting,American forces,,,31.04,65.71
+242,3/31/2010,31,3,2010,Japan,Unclear,Male,,Reporter,Freelance,Kidnapped,Baghlan,Qondoz-Baghlan way,Qondoz-Baghlan way,Traveling from Kunduz to Baghlan province,Taliban,,,35.8,68.91
+243,2/10/2011,,2,2010,Balkh,Mazar-e-sharif,Female,,Reporter,Azadi Radio,Threatened,Balkh,Mazar-e-Sharif,Mazar-e-Sharif,Reporting,taliban and unknown,,رییس پرورشگاه کابل,36.67,67.08
+244,4/11/2010,11,4,2010,Hilmand,Lashkargah City,Male,,Director,Bost FM,Threatened,Kabul,Kabul City,Kabul City,Unclear,Taliban,,,34.55,69.33
+245,4/7/2010,7,4,2010,Ghazni,Ghazni City,Male,,Journalist,Different Media,Threatened,Ghazni,Ghazni City,Ghazni City,Participating in the conference of PRT,Ghazni PRT,,Election day,33.32,67.81
+246,5/29/2010,29,5,2010,Kapisa,Mahmood raqi,Male,,Director,Bahar FM,Threatened,Kapisa,Mahmood Raqi,Mahmood Raqi,Radio program,Taliban,,Election day,34.96,69.62
+247,5/29/2010,29,5,2010,Kapisa,Mahmood raqi,Male,,Staff,Bahar FM,Threatened,Kapisa,Mahmood Raqi,Mahmood Raqi,Radio program,governement and police,,Election day,34.96,69.62
+248,6/27/2010,27,6,2010,Ghazni,Unclear,Male,,Reporter,Al Jazeera,Injured,Ghazni,Unclear,Unclear,Roadside bomb,Taliban,,,33.32,67.81
+249,6/22/2010,22,6,2010,Hirat,Hirat City,Male,,Reporter,Taban TV,Beaten,Hirat,Hirat City,Hirat City,TV program,Unknown Individuals,,,34.2,62.13
+250,6/22/2010,22,6,2010,Hirat,Hirat City,Male,,Reporter,Taban TV,Beaten,Hirat,Hirat City,Hirat City,TV program,Unknown Individuals,,,34.2,62.13
+251,7/17/2010,17,7,2010,Jawzjan,Aaqcha District,Male,,Director,Darman FM,Threatened,Jawzjan,Aaqcha District,Aaqcha District,Radio program,Unknown Individuals,,,36.83,65.85
+252,7/17/2010,17,7,2010,Jawzjan,Aaqcha District,Male,,Reporter,Darman FM,Threatened,Jawzjan,Aaqcha District,Aaqcha District,Radio program,Unknown Individuals,the names are not clear,,36.83,65.85
+253,7/8/2010,8,7,2010,Kabul,Kabul City,Male,,Camera Man,Nai,Beaten,Kabul,Kabul City,Kabul City,Filming and Reporting,president security officers,,,34.55,69.33
+254,8/13/2010,13,8,2010,Kabul,Kabul City,Male,,Reporter,Noorin TV,Beaten,Kabul,Kabul City,Kabul City,Hazara nation Demonstration,Police,,,34.55,69.33
+255,8/13/2010,13,8,2010,Kabul,Kabul City,Male,,Camera Man,Noorin TV,Beaten,Kabul,Kabul City,Kabul City,Hazara nation Demonstration,Police,,,34.55,69.33
+256,8/13/2010,13,8,2010,Kabul,Kabul City,Male,,Reporter,Afghan TV,Beaten,Kabul,Kabul City,Kabul City,Hazara nation Demonstration,Police,,,34.55,69.33
+257,8/13/2010,13,8,2010,Kabul,Kabul,Male,,Camera Man,Afghan TV,Beaten,Kabul,Kabul City,Kabul City,Hazara nation Demonstration,Police,,,34.55,69.33
+258,8/10/2011,,8,2010,Kabul,Kabul City,Male,,Reporter,Barkhalik Weekly,Threatened,Wardak,Maidan shar City,Maidan shar City,Publishing an article,Wardak Governor,,,34.3,68.22
+259,2/7/2011,7,2,2011,Logar,Pol-e-Alam,Male,,Journalist,Pazhwak & Isteqlal FM,Arrested,Logar,Pol-e-Alam City,Pol-e-Alam City,Reporting from rocket attack on ISAF base,Government,,,34.01,69.17
+260,6/6/2011,6,6,2011,Khost,Khost City,Male,,Journalist,Jawan Ghagh,Threatened,Khost,Khost City,Khost City,Reporting,Khost Governor,,,33.38,69.83
+261,6/6/2011,6,6,2011,Wardak,Said Abad District,Male,,Radio Manager,Radio Yawali Ghazh,Threatened,Wardak,Said Abad District,Said Abad District,Radio Broadcasting,Taliban,,,34.3,68.22
+262,7/6/2011,6,7,2011,Paktia,Gardiz City,Male,,Journalist,Soli Paygham Radio,Beaten,Paktya,Gardiz,Gardiz,Reporting,Taliban,,,33.63,69.39
+263,7/6/2011,6,7,2011,Paktia,Gardiz City,Male,,Journalist,RTA,Beaten,Paktya,Gardiz,Gardiz,Reporting on suicide attack,Taliban,,,33.63,69.39
+264,9/6/2011,6,9,2011,Paktia,Gardiz City,Male,,Journalist,Soli Paygham Radio,Beaten,Paktya,Gardiz,Gardiz,Reporting,Government,,,33.63,69.39
+265,10/7/2011,7,10,2011,Kunduz,Kondoz City,Female,,President,Zohra Radio,Threatened,Kunduz,Kunduz City,Kunduz City,Radio programs for women,Unknown Individuals,,,36.84,68.75
+266,7/28/2011,28,7,2011,,,Male,25,Journalist,BBC,Killed,Uruzgan,,Tarin Kot,Reporting on Taliban attack from previous night,Taliban,,,32.85,66.06

@@ -33,7 +33,7 @@ h6 { font-size: 14px; line-height: 18px; margin: 0 0 10px; }
 
 
 a {
-  color: #63aece;
+  color: #4b92db;
   text-decoration: none;
   }
 a.button {
@@ -108,7 +108,7 @@ small {
   Masthead + Header
 -------------------------------------*/
 #masthead {
-  background: #63aece;
+  background: #4b92db;
   height: 20px;
   position: absolute;
   width: 100%;
@@ -166,7 +166,7 @@ small {
   box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.10);
   }
 #feedback .contents a {
-  color: #63aece;
+  color: #4b92db;
   font-weight: bold;
   }
 #header {
@@ -423,7 +423,7 @@ table.tablesorter thead tr .headerSortUp { background-color: #000; }
   Downloads Section
 -------------------------------------*/
 #downloads {
-  background: #63aece;
+  background: #4b92db;
   }
 #downloads .col {
   min-height: 170px;
@@ -635,7 +635,7 @@ a.zoomdisabled {
   }
 .wax-legends .wax-legend div.scale ul.min-max li.max { text-align: right;}
 .wax-legends a:hover {
-  color: #63aece;
+  color: #4b92db;
   text-decoration: underline;
   }
 .wax-legends .wax-legend ul.vertical-list li {
@@ -718,7 +718,7 @@ a.zoomdisabled {
   left: 70px;
   }
 a.embed {
-  background: #63aece url(../images/sprite.png) no-repeat -387px 5px;
+  background: #4b92db url(../images/sprite.png) no-repeat -387px 5px;
   position: absolute;
   left: -60px;
   z-index: 1;
@@ -777,7 +777,7 @@ a.embed {
   color:#fff;
   position:absolute;
   top:164px;
-  background:#63AECE;
+  background:#4b92db;
   left:10px;
   z-index:4;
   -moz-border-radius: 3px;
