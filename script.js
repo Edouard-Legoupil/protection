@@ -23,10 +23,10 @@ var m,
     activePoints = 'jv-afg-total',
     mm = com.modestmaps,
     layers = [
-        'natural-earth-2',
-        'world-borders-light',
+        'KIVU',
+        'unhcr-offices',
         activePoints].join(','),
-    url = 'http://a.tiles.mapbox.com/mapbox/1.0.0/' + layers + '/layer.json';
+    url = 'http://a.tiles.mapbox.com/unhcr/1.0.0/' + layers + '/layer.json';
 
 
 function getFormatter() {
@@ -58,19 +58,19 @@ function getFormatter() {
 
 function getTiles() {
   return [
-     "http://a.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
-     "http://b.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
-     "http://c.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
-     "http://d.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.jpg"
+     "http://a.tiles.mapbox.com/unhcr/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
+     "http://b.tiles.mapbox.com/unhcr/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
+     "http://c.tiles.mapbox.com/unhcr/1.0.0/"+layers+"/{z}/{x}/{y}.jpg",
+     "http://d.tiles.mapbox.com/unhcr/1.0.0/"+layers+"/{z}/{x}/{y}.jpg"
   ];
 }
 
 function getGrids() {
   return [
-     "http://a.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
-     "http://b.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
-     "http://c.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
-     "http://d.tiles.mapbox.com/mapbox/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json"
+     "http://a.tiles.mapbox.com/unhcr/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
+     "http://b.tiles.mapbox.com/unhcr/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
+     "http://c.tiles.mapbox.com/unhcr/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json",
+     "http://d.tiles.mapbox.com/unhcr/1.0.0/"+layers+"/{z}/{x}/{y}.grid.json"
   ];
 }
 
@@ -99,7 +99,7 @@ function refreshMap() {
   $('#map-bg').remove();
   $('#map').clone().attr('id','map-bg').prependTo('#map');
 
-  url = 'http://a.tiles.mapbox.com/mapbox/1.0.0/' + layers + '/layer.json';
+  url = 'http://a.tiles.mapbox.com/unhcr/1.0.0/' + layers + '/layer.json';
   wax.tilejson(url, function(tilejson) {
     tilejson.formatter = getFormatter();
     tilejson.minzoom = 6;
@@ -157,7 +157,7 @@ var makeMap = {
                 layers = [
                    'natural-earth-2',
                    selectedOverlay,
-                   'world-borders-light',
+                   'unhcr-offices',
                    'jv-afg-' + item.year
                 ];
                 var cleanLayers = _.compact(layers);
@@ -216,7 +216,7 @@ $(function() {
               hideProvince(data);
           }
       });
-      m.setCenterZoom(new mm.Location(-1.7, 29,2), 6);
+      m.setCenterZoom(new mm.Location(-1.7, 29,2), 8);
       m.addCallback("panned", function(modestmap, e) {
         $('#map-bg').remove();
       });
@@ -369,8 +369,8 @@ $(function() {
          if($(this).parent().hasClass('active')) {
              $(this).parent('li').removeClass('active');
              layers = [
-                   'natural-earth-2',
-                   'world-borders-light',
+                   'KIVU',
+                   'unhcr-offices',
                    activePoints
                  ].join(',');
             refreshMap();
@@ -379,9 +379,9 @@ $(function() {
              $(this).parent().addClass('active');
              var selectedOverlay = $(this).attr('id');
              layers = [
-                     'natural-earth-2',
+                     'KIVU',
                      selectedOverlay,
-                     'world-borders-light',
+                     'unhcr-offices',
                      activePoints
                    ].join(',');
              refreshMap();
@@ -393,9 +393,9 @@ $(function() {
         year = 0;
         selectedOverlay = $('ul#overlay-select li.active a').attr('id');
         layers = [
-            'natural-earth-2',
+            'KIVU',
             selectedOverlay,
-            'world-borders-light',
+            'unhcr-offices',
             'jv-afg-total'
         ];
         var cleanLayers = _.compact(layers);
@@ -458,7 +458,7 @@ $(function() {
     url += '&amp;options%5B%5D=attribution';
     url += '&amp;el=' + embedId;
 
-    $('.tip input').attr('value', "<div id='" + embedId + "-script'><script src='http://tiles.mapbox.com/mapbox/api/v1/embed.js?api=mm" + url + "'></script></div>");
+    $('.tip input').attr('value', "<div id='" + embedId + "-script'><script src='http://tiles.mapbox.com/unhcr/api/v1/embed.js?api=mm" + url + "'></script></div>");
     $(this).parent().addClass('active');
     $('.tip input').select();
   },function() {
